@@ -13,18 +13,18 @@ IF ErrorLevel {
 						
 
 						
-							; Send the keys for window + ctrl + direction
+							
 							
 							; Toggle the direction between left and right
 							if (direction = "left") 
 							{
-								Send {LWin down}{LCtrl down}{right}{LWin up}{LCtrl up}
+								Send {LWin down}{LCtrl down}{right}{LWin up}{LCtrl up} ;Send the keys for window + ctrl + direction
 								direction := "right"
 								SetCapslockState, Off
 							}
 							else 
 							{
-								Send {LWin down}{LCtrl down}{left}{LWin up}{LCtrl up}
+								Send {LWin down}{LCtrl down}{left}{LWin up}{LCtrl up} ;Send the keys for window + ctrl + direction
 								direction := "left"
 								SetCapslockState, Off
 							}
