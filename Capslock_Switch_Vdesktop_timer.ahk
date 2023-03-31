@@ -9,11 +9,11 @@ CapsLock::
 KeyWait, CapsLock, T.4 ; 0.4 second
 IF ErrorLevel {	
 					
-						; Define a variable to keep track of the direction
+						
 						
 
-						; Define a hotkey for left capslock
-													; Send the keys for window + ctrl + direction
+						
+							; Send the keys for window + ctrl + direction
 							
 							; Toggle the direction between left and right
 							if (direction = "left") 
