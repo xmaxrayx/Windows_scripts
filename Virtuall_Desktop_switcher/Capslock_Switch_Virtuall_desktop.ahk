@@ -1,4 +1,4 @@
-;Capslock::Send {LWin down}{LCtrl down}{Left}{LWin up}{LCtrl up}
+    ;Capslock::Send {LWin down}{LCtrl down}{Left}{LWin up}{LCtrl up}
 
 ; Define a variable to keep track of the direction
 direction := "left"
